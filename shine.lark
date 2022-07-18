@@ -4,10 +4,10 @@
 %ignore WS
 %ignore COMMENT
 
-name       : CNAME
-number     : SIGNED_INT
-program    : assignment*
-assignment : name ":=" expression
+name        : CNAME
+number      : SIGNED_INT
+program     : assignment*
+assignment  : name ":=" expression
 ?expression : literal
             | expression operator expression
             | "(" expression ")"
