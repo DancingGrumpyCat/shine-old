@@ -1,0 +1,8 @@
+1 * dm := 0.1 * m
+1 * km := 1000 * m
+1 * L  := 1 * dm^3
+humanvolume := 66 * L
+indiaarea := 3287263 * km^2
+indiaheight := 8.59 * km
+indiapopulation := 1.35e9 * people
+print := humanvolume * indiapopulation / (indiaarea * indiaheight)
